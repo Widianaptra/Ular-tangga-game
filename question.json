@@ -1,0 +1,162 @@
+[
+    {
+        "q": "Apa perbedaan utama antara Lossy Compression dan Lossless Compression?",
+        "opts": [
+            "Lossy mengurangi sebagian data, sedangkan Lossless mempertahankan data asli",
+            "Lossy hanya untuk audio, sedangkan Lossless hanya untuk gambar",
+            "Keduanya selalu menghasilkan ukuran file yang sama",
+            "Lossless menghapus seluruh data yang tidak diperlukan"
+        ],
+        "ans": 0
+    },
+    {
+        "q": "Prinsip animasi Squash and Stretch digunakan untuk menunjukkan apa?",
+        "opts": [
+            "Perubahan warna objek",
+            "Kesan berat, kelenturan, dan gerakan objek",
+            "Kecepatan koneksi internet",
+            "Ukuran resolusi gambar"
+        ],
+        "ans": 1
+    },
+    {
+        "q": "Format gambar yang mendukung transparansi melalui alpha channel adalah ...",
+        "opts": [
+            "BMP saja",
+            "JPG",
+            "PNG",
+            "TXT"
+        ],
+        "ans": 2
+    },
+    {
+        "q": "FPS dalam animasi dan video merupakan singkatan dari ...",
+        "opts": [
+            "File Per Second",
+            "Frame Per Second",
+            "Format Pixel System",
+            "Fast Picture Size"
+        ],
+        "ans": 1
+    },
+    {
+        "q": "Model warna RGB umumnya digunakan pada perangkat ...",
+        "opts": [
+            "Layar monitor dan televisi",
+            "Mesin cetak berbasis tinta saja",
+            "Kertas gambar",
+            "Alat pemotong"
+        ],
+        "ans": 0
+    },
+    {
+        "q": "Proses mengubah sinyal audio analog menjadi data digital disebut ...",
+        "opts": [
+            "Rendering",
+            "Sampling",
+            "Cropping",
+            "Compositing"
+        ],
+        "ans": 1
+    },
+    {
+        "q": "Prinsip Anticipation dalam animasi bertujuan untuk ...",
+        "opts": [
+            "Memberi gerakan persiapan sebelum aksi utama",
+            "Menghilangkan seluruh gerakan",
+            "Mengubah format file",
+            "Memperbesar ukuran gambar"
+        ],
+        "ans": 0
+    },
+    {
+        "q": "Gambar vektor tersusun dari ...",
+        "opts": [
+            "Kumpulan titik piksel saja",
+            "Persamaan dan objek geometris",
+            "Gelombang suara",
+            "Frame video"
+        ],
+        "ans": 1
+    },
+    {
+        "q": "Apa fungsi utama storyboard dalam produksi multimedia?",
+        "opts": [
+            "Mengatur urutan adegan atau tampilan sebelum dibuat",
+            "Memperkecil ukuran file audio",
+            "Mengubah gambar menjadi suara",
+            "Menghapus proses perancangan"
+        ],
+        "ans": 0
+    },
+    {
+        "q": "Ekstensi file yang umum digunakan untuk gambar fotografi dengan kompresi lossy adalah ...",
+        "opts": [
+            "PNG",
+            "SVG",
+            "JPG atau JPEG",
+            "WAV"
+        ],
+        "ans": 2
+    },
+    {
+        "q": "Apa yang dimaksud dengan resolusi gambar digital?",
+        "opts": [
+            "Jumlah piksel yang menyusun gambar",
+            "Lama waktu pemutaran audio",
+            "Jumlah halaman dokumen",
+            "Kecepatan gerak animasi"
+        ],
+        "ans": 0
+    },
+    {
+        "q": "Perangkat yang digunakan untuk menangkap suara ke komputer adalah ...",
+        "opts": [
+            "Monitor",
+            "Mikrofon",
+            "Proyektor",
+            "Printer"
+        ],
+        "ans": 1
+    },
+    {
+        "q": "Dalam multimedia, teks berfungsi untuk ...",
+        "opts": [
+            "Menyampaikan informasi melalui tulisan",
+            "Menghasilkan getaran perangkat",
+            "Mengatur tegangan listrik",
+            "Menggantikan seluruh elemen visual"
+        ],
+        "ans": 0
+    },
+    {
+        "q": "Format audio WAV umumnya dikenal sebagai format yang ...",
+        "opts": [
+            "Menyimpan audio tanpa kompresi atau dengan kompresi tertentu",
+            "Hanya dapat menyimpan gambar",
+            "Digunakan untuk membuat animasi vektor",
+            "Selalu berukuran paling kecil"
+        ],
+        "ans": 0
+    },
+    {
+        "q": "Apa fungsi keyframe dalam pembuatan animasi?",
+        "opts": [
+            "Menentukan titik perubahan penting dalam gerakan",
+            "Menghapus semua frame",
+            "Mengubah audio menjadi teks",
+            "Mengatur koneksi jaringan"
+        ],
+        "ans": 0
+    },
+    {
+        "q": "Perangkat lunak multimedia dapat digunakan untuk menggabungkan ...",
+        "opts": [
+            "Teks, gambar, audio, video, dan animasi",
+            "Hanya angka dan tabel",
+            "Hanya perangkat keras",
+            "Hanya sistem operasi"
+        ],
+        "ans": 0
+    }
+]

@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ular Tangga Teknologi Multimedia</title>
+    <link rel="stylesheet" href="style.css?v=20261124-2">
+</head>
+<body>
+    <main class="container">
+        <header class="page-header">
+            <div>
+                <p class="eyebrow">PERMAINAN EDUKASI</p>
+                <h1>Ular Tangga - Multimedia</h1>
+                <p class="subtitle">Bermain bersama sambil menguji pengetahuan!</p>
+            </div>
+</header>
+<section class="game-layout">
+    <section class="board-section">
+        <div id="board" class="board" aria-label="Papan ular tangga"></div>
+</section>
+
+<aside class="side-panel">
+    <section class="panel-card turn-card">
+        <h2>Giliran Bermain</h2>
+        <p id="turnIndicator" class="turn-indicator">Giliran Pemain 1</p>
+    <div class="players">
+        <div class="player-item">
+            <span class="player-dot player-one"></span>
+                <div>
+                    <strong>Pemain 1</strong>
+                    <span id="positionP1">Posisi: 1</span>
+</div>
+</div>
+<div class="player-item">
+    <span class="player-dot player-two"></span>
+<div>
+    <strong>Pemain 2</strong>
+        <span id="positionP2">Posisi: 1</span>
+</div>
+</div>
+</div>
+
+<div class="dice-area">
+    <img id="diceDisplay" class="dice" src="images/1.png">
+        <button id="rollBtn" class="button button-primary" type="button">Kocok Dadu</button>
+</div>
+
+<p id="statusLog" class="status-message" aria-live="polite">Pemain 1 memulai permainan. Silakan kocok dadu!</p>
+</section>
+
+<section class="panel-card help-card">
+    <h2>Petunjuk Permainan</h2>
+        <ol class="help-list">
+            <li>Permainan dimainkan oleh dua orang secara bergantian.</li>
+            <li>Tekan <strong>Kocok Dadu</strong> untuk menentukan jumlah langkah.</li>
+            <li>Setelah bidak bergerak, jawab pertanyaan yang muncul.</li>
+            <li>Jawaban benar membuat pemain tetap di petak, kecuali jika petak tersebut memiliki tangga atau ular.</li>
+            <li>Jawaban salah membuat pemain mundur satu petak.</li>
+            <li>Pemain yang mencapai petak 36 dan menjawab pertanyaan dengan benar menjadi pemenang.</li>
+        </ol>
+        <p class="help-note">Jika bidak mendarat di kepala ular, bidak turun ke petak tujuan ular.</p>
+</section>
+</aside>
+</section>
+
+    </main>
+
+<!-- Kuis -->
+<div id="quizModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="quizTitle">
+    <div class="modal-content">
+        <p class="eyebrow">PERTANYAAN</p>
+        <h2 id="quizTitle">Kuis Teknologi Multimedia</h2>
+        <p id="quizInfo" class="modal-info"></p>
+        <p id="questionText" class="question-text"></p>
+        <div id="answerOptions" class="answer-options"></div>
+        <p id="quizFeedback" class="feedback" aria-live="polite"></p>
+</div>
+</div>
+
+<!-- Menang -->
+<div id="gameOverModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="gameOverTitle">
+    <div class="modal-content winner-content">
+        <div class="trophy">🏆</div>
+        <p class="eyebrow">PERMAINAN SELESAI</p>
+        <h2 id="gameOverTitle">Selamat!</h2>
+        <p id="winnerText" class="winner-text"></p>
+        <p id="finalStats" class="modal-info"></p>
+        <button id="restartBtn" class="button button-primary full-button" type="button">Main Lagi</button>
+</div>
+</div>
+
+<audio id="soundCorrect" src="audio/benar.mpeg" preload="auto"></audio>
+<audio id="soundWrong" src="audio/salah.mpeg" preload="auto"></audio>
+<audio id="soundWin" src="audio/menang.mpeg" preload="auto"></audio>
+<script src="script.js?v=20261124-3"></script>
+</body>
+</html>
